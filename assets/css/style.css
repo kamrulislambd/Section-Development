@@ -156,3 +156,67 @@ a.boxed-btn {
     opacity: 1;
     visibility: visible;
 }
+
+/* ==============Service Box 03============== */
+.service-box-3-bg-1{
+    background-image: url(../images/section-3-bg-1.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.service-box-3-bg-2{
+    background-image: url(../images/section-3-bg-2.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.service-box-3-bg-3{
+    background-image: url(../images/section-3-bg-3.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+.service-box-content {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border-top: 0 solid;
+    padding: 30px;
+}
+
+.service-box-content h3 {
+    font-size: 25px;
+    color: #333;
+    font-weight: 600;
+}
+
+.service-box-meta {
+    opacity: .5;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.service-box-3 {
+    position: relative;
+}
+
+.service-box-project {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid #ddd; */
+}
+
+.service-box-project a {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    font-weight: 800;
+    color: #999;
+    text-transform: uppercase;
+}
+.service-box-project:hover a{
+    color: #25697a;
+}
