@@ -311,3 +311,132 @@ a.boxed-btn {
     left: 0;
     visibility: visible;
 }
+/* ==========News Letter=========== */
+
+.newsletter-bg{
+    background-image: url(../images/bg-1.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    padding: 170px;
+}
+.newsletter-content h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 25px 0;
+}
+.newsletter-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #333;
+    z-index: -1;
+    opacity: .3;
+}
+
+.newsletter-form input[type="text"] {
+    padding: 10px 20px;
+    width: 70%;
+    background: #000;
+    opacity: .4;
+    border: 2px solid #8e8582;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.newsletter-form input[type="submit"] {
+    padding: 11px;
+    width: 28%;
+    color: #fff;
+    background: #37B59F;
+    border-radius: 50px;
+}
+
+.newsletter-form form {
+    margin-bottom: 15px;
+}
+.newsletter-title {
+    font-style: italic;
+    color: #f8f8f8;
+    font-size: 18px;
+}
+.newsletter-title {
+    font-style: italic;
+    color: #f8f8f8;
+    font-size: 18px;
+}
+
+.newsletter-bordered-box {
+    overflow: hidden;
+    text-align: center;
+    border-right: 1px solid #ededed;
+    position: relative;
+    margin-top: -160px;
+    z-index: 9;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.single-newsletter-box {
+    width: 50%;
+    float: left;
+    border-left: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding: 20px 35px;
+    min-height: 350px;
+    border-radius: 5px;
+}
+.single-newsletter-box h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.single-newsletter-box h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.single-testimonial {
+    color: #3e3c3c;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.single-testimonial .author {
+    color: #000;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+.single-newsletter-box h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.newsletter-btn {
+    color: #fff;
+    background: #000;
+    padding: 10px 40px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.newsletter-btn:hover{
+    background-color: #37B59F;
+    color: #fff;
+}
