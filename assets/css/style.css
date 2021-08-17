@@ -343,7 +343,7 @@ a.boxed-btn {
 
 .newsletter-form input[type="text"] {
     padding: 10px 20px;
-    width: 70%;
+    min-width: 70%;
     background: #000;
     opacity: .4;
     border: 2px solid #8e8582;
@@ -353,7 +353,7 @@ a.boxed-btn {
 
 .newsletter-form input[type="submit"] {
     padding: 11px;
-    width: 28%;
+    min-width: 28%;
     color: #fff;
     background: #37B59F;
     border-radius: 50px;
