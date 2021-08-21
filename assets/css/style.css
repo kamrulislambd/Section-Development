@@ -442,3 +442,97 @@ a.boxed-btn {
     background-color: #37B59F;
     color: #fff;
 }
+
+/* Before-After-Background */
+.section-relative {
+    position: relative;
+    z-index: 1;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.section-bg-1{
+    background-image: url("../images/section-bg-1.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;    
+    height: 100%;
+    width: 65%;
+}
+.section-bg-2{
+    background-image: url("../images/section-bg-2.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;    
+    height: 100%;
+    width: 65%;
+}
+.section-bg-1::after, .section-bg-2::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #000;
+    opacity: .3;
+}
+
+    .content-box-1 {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: rgb(153 153 153) 0px 0px 4px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .content-box-2 {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        right: 0;
+        top: 0;
+        padding: 30px 20px;
+        text-align: center;
+        box-shadow: rgb(153 153 153) 0px 0px 4px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+
+.content-box-1, .content-box-2 h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #555;
+}
+
+.content-box-1 p , .content-box-2 p{
+    font-size: 15px;
+    color: #3a3636c4;
+    font-weight: 500;
+    padding: 15px;
+    text-align: justify;
+}
+.btn-custom {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid orange;
+    outline: none;
+    text-transform: uppercase;
+}
+.btn-custom:hover{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
